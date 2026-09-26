@@ -1,9 +1,7 @@
 # rpi-client
 
-PS4 remote package installer toolkit in Python. This can be used to install fake packages on your jailbroken console. \
-It only uses the python stdlib to avoid users having to setup complex environments and as a programming exercisce for myself. \ 
-This relies on [this](https://github.com/flatz/ps4_remote_pkg_installer) being installed on your jailbroken console. \
-The serve option binds to 0.0.0.0 by default which can be a privacy problem if you run this for long periods. Change it to your preferred NIC.
+**PS4 remote package installer toolkit in Python**. This can be used to install **fake packages** on your PS4. \
+To use, install [this](https://github.com/flatz/ps4_remote_pkg_installer) pkg on your console. Install it via USB through HEN/Goldhen. Chicken and egg problem i guess. \
 
 # How to use?
 This will display a terminal interface. Input your desired operation and press enter: `python3 client.py`
@@ -22,4 +20,6 @@ If you encounter the errors listed below, you must resolve them manually on your
 | `SCE_APP_INSTALLER_ERROR_SYSTEM_VERSION` | CE-34627-2 | `0x80a3000d` | Wrong OS version. Try a backport or remarry the package. |
 
 ## Why build this?
-why would i install [Java 8](https://github.com/BenjaminFaal/ps4-remote-pkg-installer) to communicate with an API instead of python?
+why would i install [Java 8](https://github.com/BenjaminFaal/ps4-remote-pkg-installer) to communicate with an API instead of python? \
+The client only uses the python stdlib to avoid users having to setup complex environments and as a programming exercisce for myself. \
+Note: The serve option binds to 0.0.0.0 by default which can be a privacy problem if you run this for long periods. Change it to your preferred interface.
