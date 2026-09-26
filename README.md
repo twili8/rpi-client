@@ -5,6 +5,9 @@ It only uses the python stdlib to avoid users having to setup complex environmen
 This relies on [this](https://github.com/flatz/ps4_remote_pkg_installer) being installed on your jailbroken console. \
 The serve option binds to 0.0.0.0 by default which can be a privacy problem if you run this for long periods. Change it to your preferred NIC.
 
+# How to use?
+This will display a terminal interface. Input your desired operation and press enter: `python3 client.py`
+
 ### Tested on 13.52.
 
 ## Troubleshooting
