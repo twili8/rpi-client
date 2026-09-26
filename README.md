@@ -4,7 +4,7 @@
 To use, install [this](https://github.com/flatz/ps4_remote_pkg_installer) pkg on your console. Install it via USB through HEN/Goldhen. Chicken and egg problem i guess. 
 
 # How to use?
-This will display a terminal interface. Input your desired operation and press enter: `python3 client.py`
+You need Python 3.11+ for this program. Run it: `python3 client.py`. This will display a terminal interface. Input your desired operation and press enter.
 
 ### Tested on 13.52.
 
