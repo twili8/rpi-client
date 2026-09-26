@@ -1,7 +1,7 @@
 # rpi-client
 
 **PS4 remote package installer toolkit in Python**. This can be used to install **fake packages** on your PS4. \
-To use, install [this](https://github.com/flatz/ps4_remote_pkg_installer) pkg on your console. Install it via USB through HEN/Goldhen. Chicken and egg problem i guess. \
+To use, install [this](https://github.com/flatz/ps4_remote_pkg_installer) pkg on your console. Install it via USB through HEN/Goldhen. Chicken and egg problem i guess. 
 
 # How to use?
 This will display a terminal interface. Input your desired operation and press enter: `python3 client.py`
