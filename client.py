@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """PS4 Remote PKG Installer client. Keep the PS4 app in focus during install."""
-""" Do you want to complain? twili8t [[at]] proton {.} me """
+""" Do you want to complain? twil8t [[at]] proton {.} me """
 
 import argparse
 import concurrent.futures
